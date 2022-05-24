@@ -42,13 +42,18 @@ const App: React.FC = () => {
                   <h3 className="text-2xl drop-shadow-2xl animate-fade-in">
                     학생 개발자 알파입니다.
                   </h3>
+                  <div className="flex">
+                    <a href="https://github.com/ArpaAP" target="_blank">
+                      <i className="xi-github xi-2x" />
+                    </a>
+                  </div>
                 </div>
                 <div
                   className="absolute bottom-5 left-0 right-0 flex text-center mt-auto font-semibold shadow-2xl animate-fade-in text-lg"
                   style={{ animationDelay: '1.8s' }}
                 >
                   <div
-                    className="mx-auto px-4 py-2 animate-bounce items-center hover:text-emerald-400 transition-all cursor-pointer duration-300"
+                    className="mx-auto px-4 py-2 animate-bounce items-center hover:text-violet-500 transition-all cursor-pointer duration-300"
                     onClick={() => {
                       fullpageApi.moveSectionDown();
                     }}
