@@ -42,9 +42,9 @@ const App: React.FC = () => {
                   <h3 className="text-2xl drop-shadow-2xl animate-fade-in">
                     학생 개발자 알파입니다.
                   </h3>
-                  <div className="flex">
+                  <div className="flex animate-fade-in">
                     <a href="https://github.com/ArpaAP" target="_blank">
-                      <i className="xi-github xi-2x" />
+                      <i className="xi-github xi-2x drop-shadow-2xl" />
                     </a>
                   </div>
                 </div>
