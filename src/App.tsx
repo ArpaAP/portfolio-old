@@ -113,7 +113,7 @@ const App: React.FC = () => {
                   className="absolute bottom-0 left-0 right-0 mx-auto rounded-t-xl sm:w-5/6 md:w-2/3 h-4/5"
                   style={{
                     backgroundColor: 'rgba(255, 255, 255, 0.5)',
-                    backdropFilter: 'blur(10px)',
+                    backdropFilter: 'blur(12px)',
                   }}
                   direction="up"
                   duration={500}
@@ -131,7 +131,7 @@ const App: React.FC = () => {
                       style={{ height: 'calc(100% - 1.75rem)' }}
                     >
                       <div className="px-3 py-2 col-span-3 bg-slate-300 shadow-xl">
-                        <span className="px-1 text-lg font-medium text-slate-800">
+                        <span className="px-1 text-lg font-medium text-slate-900">
                           My Technologies
                         </span>
                         <hr
@@ -164,7 +164,13 @@ const App: React.FC = () => {
                           ))}
                         </div>
                       </div>
-                      <div className="px-3 py-2 col-span-9">ddd</div>
+                      <div className="px-5 py-4 col-span-9 text-black">
+                        {techCategory === 'languages' && (
+                          <h2 className="font-bold text-2xl">
+                            프로그래밍 언어
+                          </h2>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </Slide>
