@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:layerName CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:mask CDATA #IMPLIED >
+<!ATTLIST text
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:width CDATA #IMPLIED >
+
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ENTITY % SVG.filter.extra.content  "| feDropShadow" >
+<!ELEMENT feDropShadow EMPTY>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dx CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dy CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  stdDeviation CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-opacity CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  in CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  result CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-color CDATA #IMPLIED>
+]
+>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 140 137.29" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient cx="69.955" cy="60.8864" gradientTransform="matrix(1 0 0 -1 0 129.533)" gradientUnits="userSpaceOnUse" id="RadialGradient" r="68.065">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<g id="Untitled" vectornator:layerName="Untitled">
+<g opacity="1">
+<g opacity="1">
+<path d="M29.64 108.94L6.36 85.66C3.6 82.82 1.88 78.82 1.88 74.91C1.88 73.1 2.9 70.27 3.67 68.64L25.16 23.87L29.64 108.94Z" fill="#01579b" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M109.34 28.35L86.06 5.07C84.03 3.03 79.79 0.59 76.21 0.59C73.13 0.59 70.11 1.21 68.15 2.38L25.17 23.87L109.34 28.35Z" fill="#40c4ff" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M57.4 136.7L113.82 136.7L113.82 112.52L71.73 99.09L33.23 112.52L57.4 136.7Z" fill="#40c4ff" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M25.17 96.41C25.17 103.59 26.07 105.36 29.65 108.95L33.23 112.53L113.82 112.53L74.42 67.76L25.17 23.88L25.17 96.41Z" fill="#29b6f6" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M96.8 23.87L25.16 23.87L113.81 112.52L137.99 112.52L137.99 57L109.34 28.35C105.32 24.31 101.74 23.87 96.8 23.87Z" fill="#01579b" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M30.54 109.84C26.96 106.24 26.06 102.7 26.06 96.41L26.06 24.77L25.16 23.87L25.16 96.4C25.17 102.7 25.17 104.44 30.54 109.84L33.23 112.53L33.23 112.53L30.54 109.84Z" fill="#ffffff" fill-rule="evenodd" opacity="0.2" stroke="none"/>
+<path d="M137.1 56.11L137.1 111.63L112.92 111.63L113.82 112.52L138 112.52L138 57.01L137.1 56.11Z" fill="#263238" fill-rule="evenodd" opacity="0.2" stroke="none"/>
+<path d="M109.34 28.35C104.9 23.91 101.26 23.87 95.91 23.87L25.17 23.87L26.07 24.77L95.92 24.77C98.58 24.77 105.33 24.32 109.34 28.35L109.34 28.35Z" fill="#ffffff" fill-rule="evenodd" opacity="0.2" stroke="none"/>
+<path d="M137.1 56.11L109.34 28.35L86.06 5.07C84.03 3.03 79.79 0.59 76.21 0.59C73.13 0.59 70.11 1.21 68.15 2.38L25.17 23.87L3.68 68.64C2.91 70.27 1.89 73.1 1.89 74.91C1.89 78.82 3.61 82.82 6.37 85.66L27.83 106.96C28.34 107.59 28.94 108.23 29.66 108.94L30.56 109.84L33.25 112.53L56.53 135.81L57.43 136.71L112.95 136.71L113.85 136.71L113.85 112.53L138.03 112.53L138.03 112.47L138.03 57.01L137.1 56.11Z" fill="url(#RadialGradient)" fill-rule="evenodd" opacity="0.2" stroke="none"/>
+</g>
+</g>
+</g>
+</svg>
