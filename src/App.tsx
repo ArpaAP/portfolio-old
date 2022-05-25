@@ -126,7 +126,10 @@ const App: React.FC = () => {
                       <div className="rounded-full w-3 h-3 bg-orange-300" />
                       <div className="rounded-full w-3 h-3 bg-green-600" />
                     </div>
-                    <div className="grid grid-cols-12 h-full shadow-xl">
+                    <div
+                      className="grid grid-cols-12 shadow-xl"
+                      style={{ height: 'calc(100% - 1.75rem)' }}
+                    >
                       <div className="px-3 py-2 col-span-3 bg-slate-300 shadow-xl">
                         <span className="px-1 text-lg font-medium text-slate-800">
                           My Technologies
@@ -137,23 +140,23 @@ const App: React.FC = () => {
                         />
                         <div className="flex flex-col">
                           {[
-                            ['languages', '카오링 스탈~', []],
+                            ['languages', '프로그래밍 언어', []],
                             ['frontend', '프론트엔드'],
                             ['backend', '백엔드'],
                             ['mobile', '모바일 앱'],
                             ['database', '데이터베이스'],
                           ].map(([tech, name]) => (
                             <div
-                              key={tech}
+                              key={tech as string}
                               className="rounded-lg px-3 py-1.5 font-semibold cursor-pointer transition-all duration-300"
                               style={{
                                 backgroundColor:
                                   techCategory === tech
                                     ? 'rgba(0, 5, 10, 0.08)'
-                                    : null,
+                                    : undefined,
                               }}
                               onClick={() => {
-                                setTechCategory(tech);
+                                setTechCategory(tech as string);
                               }}
                             >
                               {name}
