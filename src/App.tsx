@@ -36,8 +36,9 @@ const App: React.FC = () => {
         keyboardScrolling
         dragAndMove
         anchors={['intro', 'about', 'tech', 'projects']}
-        navigation
-        navigationPosition="right"
+        normalScrollElements={
+          '#tech-languages, #tech-frontend, #tech-backend, #tech-mobile, #tech-database'
+        }
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
@@ -230,6 +231,7 @@ const App: React.FC = () => {
                               주로 사용하는 언어
                             </h2>
                             <div
+                              id="tech-languages"
                               className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll"
                               style={{ height: 'calc(100% - 48px)' }}
                             >
@@ -273,7 +275,10 @@ const App: React.FC = () => {
                             <h2 className="font-bold text-2xl mb-5">
                               주로 사용하는 프론트엔드
                             </h2>
-                            <div className="grid lg:grid-cols-2 gap-y-6">
+                            <div
+                              id="tech-frontend"
+                              className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll"
+                            >
                               {[
                                 ['React', '프론트엔드 프레임워크', reactIcon],
                                 [
@@ -309,10 +314,13 @@ const App: React.FC = () => {
                         )}
                         {techCategory === 'backend' && (
                           <>
-                            <h2 className="font-bold text-2xl mb-5">
+                            <h2
+                              id="tech-backend"
+                              className="font-bold text-2xl mb-5"
+                            >
                               주로 사용하는 백엔드
                             </h2>
-                            <div className="grid lg:grid-cols-2 gap-y-6">
+                            <div className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll">
                               {[
                                 ['Express.js', 'Node.js 기반', expressjsIcon],
                                 ['Django', 'Python 기반', djangoIcon],
@@ -347,7 +355,10 @@ const App: React.FC = () => {
                             <h2 className="font-bold text-2xl mb-5">
                               주로 사용하는 모바일 앱 프레임워크
                             </h2>
-                            <div className="grid lg:grid-cols-2 gap-y-6">
+                            <div
+                              id="tech-mobile"
+                              className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll"
+                            >
                               {[
                                 [
                                   'Flutter',
@@ -386,7 +397,10 @@ const App: React.FC = () => {
                             <h2 className="font-bold text-2xl mb-5">
                               주로 사용하는 데이터베이스
                             </h2>
-                            <div className="grid lg:grid-cols-2 gap-y-6">
+                            <div
+                              id="tech-database"
+                              className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll"
+                            >
                               {[
                                 ['MySQL', 'RDBMS', mysqlIcon],
                                 ['MongoDB', 'NoSQL', mongodbIcon],
