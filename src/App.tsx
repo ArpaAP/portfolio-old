@@ -149,7 +149,13 @@ const App: React.FC = () => {
                   className="absolute text-center left-0 right-0 top-12 font-bold text-3xl md:text-4xl lg:text-5xl text-white"
                   style={{ textShadow: '1px 1px 8px rgba(0, 0, 0, 0.8)' }}
                 >
-                  <Fade duration={1000} delay={400} cascade damping={0.4}>
+                  <Fade
+                    duration={1000}
+                    delay={400}
+                    cascade
+                    damping={0.4}
+                    triggerOnce
+                  >
                     <div>사용 가능한 기술들</div>
                   </Fade>
                 </h2>
