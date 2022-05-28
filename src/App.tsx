@@ -168,17 +168,12 @@ const App: React.FC = () => {
                   </Fade>
                 </h2>
 
-                <Slide
+                <div
                   className="absolute bottom-0 left-0 right-0 mx-auto rounded-t-xl sm:w-5/6 md:w-2/3 h-4/5"
                   style={{
                     backgroundColor: 'rgba(255, 255, 255, 0.5)',
                     backdropFilter: 'blur(12px)',
                   }}
-                  direction="up"
-                  duration={500}
-                  delay={200}
-                  cascade
-                  damping={0.4}
                 >
                   <div className="h-full shadow-xl">
                     <div className="h-7 bg-slate-200 rounded-t-xl flex items-center gap-2 px-2 shadow-xl">
@@ -424,7 +419,7 @@ const App: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                </Slide>
+                </div>
               </div>
 
               <div className="section relative bg-slate-100 overflow-hidden min-h-screen shadow-xl text-slate-700">
