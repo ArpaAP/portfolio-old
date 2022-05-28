@@ -141,20 +141,6 @@ const App: React.FC = () => {
                     </Fade>
                   </p>
                 </div>
-                <div
-                  className="absolute bottom-5 left-0 right-0 flex text-center mt-auto font-semibold shadow-2xl animate-fade-in text-lg"
-                  style={{ animationDelay: '2.5s' }}
-                >
-                  <div
-                    className="mx-auto px-4 py-2 animate-bounce items-center hover:text-violet-500 transition-all cursor-pointer duration-300"
-                    onClick={() => {
-                      fullpageApi.moveSectionDown();
-                    }}
-                  >
-                    <i className="xi-angle-down mr-2" />
-                    사용 가능한 기술 보기
-                  </div>
-                </div>
               </div>
 
               <div className="section relative bg-slate-100 overflow-hidden min-h-screen shadow-xl text-slate-700">
