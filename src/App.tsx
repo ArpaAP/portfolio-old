@@ -34,7 +34,6 @@ const App: React.FC = () => {
         licenseKey="gplv3-license"
         scrollBar
         keyboardScrolling
-        dragAndMove
         anchors={['intro', 'about', 'tech', 'projects']}
         normalScrollElements={
           '#tech-languages, #tech-frontend, #tech-backend, #tech-mobile, #tech-database'
