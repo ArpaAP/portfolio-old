@@ -187,13 +187,16 @@ const App: React.FC = () => {
                       <div className="rounded-full w-3 h-3 bg-green-600" />
                     </div>
                     <div
-                      className="grid grid-cols-12 shadow-xl"
+                      className="flex shadow-xl"
                       style={{ height: 'calc(100% - 1.75rem)' }}
                     >
-                      <div className="px-2 py-2 col-span-5 md:col-span-4 lg:col-span-3 bg-slate-300 shadow-xl">
-                        <span className="px-3 font-semibold text-slate-900">
-                          기술 카테고리
-                        </span>
+                      <div className="w-1/3 px-2 py-2 bg-slate-300 shadow-xl h-full">
+                        <div
+                          className="px-3 font-semibold text-slate-900"
+                          style={{ wordBreak: 'keep-all' }}
+                        >
+                          <span>기술 카테고리</span>
+                        </div>
                         <hr
                           className="mx-2 mt-2 mb-1 border-slate-400"
                           style={{ borderWidth: '0.1px' }}
@@ -214,6 +217,7 @@ const App: React.FC = () => {
                                   techCategory === tech
                                     ? 'rgba(0, 5, 10, 0.08)'
                                     : undefined,
+                                wordBreak: 'keep-all',
                               }}
                               onClick={() => {
                                 setTechCategory(tech as string);
@@ -224,13 +228,16 @@ const App: React.FC = () => {
                           ))}
                         </div>
                       </div>
-                      <div className="px-5 py-4 col-span-7 md:col-span-8 lg:col-span-9 text-black">
+                      <div className="pl-4 pr-2 py-4 w-full text-black">
                         {techCategory === 'languages' && (
                           <>
                             <h2 className="font-bold text-2xl mb-5">
                               주로 사용하는 언어
                             </h2>
-                            <div className="grid lg:grid-cols-2 gap-y-6">
+                            <div
+                              className="grid lg:grid-cols-2 gap-y-6 overflow-y-scroll"
+                              style={{ height: 'calc(100% - 48px)' }}
+                            >
                               {[
                                 ['Python', '파이썬', pythonIcon],
                                 ['JavaScript', '자바스크립트', jsIcon],
